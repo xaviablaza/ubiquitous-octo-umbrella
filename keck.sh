@@ -13,6 +13,5 @@ distribution=$(. /etc/os-release;echo $ID$VERSION_ID) && \
 curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.repo | sudo tee /etc/yum.repos.d/nvidia-docker.repo && \
 sudo yum -y install nvidia-docker2 && \
 sudo pkill -SIGHUP dockerd && \
-touch ~/.profile && \
-echo "nvidia-docker run --rm -it -d -u $(id -u):$(id -g) --name xmr-stak -v /home/cuadmin/ubiquitous-octo-umbrella:/mnt xaviablaza/xmr-stak --config config.txt --noCPU" >> ~/.profile && \
+echo "nvidia-docker run --rm -it -d -u $(id -u):$(id -g) --name xmr-stak -v /home/cuadmin/ubiquitous-octo-umbrella:/mnt xaviablaza/xmr-stak --config config.txt --noCPU" >> /home/cuadmin/.profile && \
 reboot
