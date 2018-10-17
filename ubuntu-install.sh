@@ -95,4 +95,10 @@ sudo apt-get update
 sudo apt-get install -y nvidia-docker2
 sudo pkill -SIGHUP dockerd
 
+# Install NordVPN
+wget https://repo.nordvpn.com/deb/nordvpn/debian/pool/main/nordvpn-release_1.0.0_all.deb
+sudo apt-get install ./nordvpn-release_1.0.0_all.deb
+sudo apt-get update
+sudo apt-get install -y nordvpn
+
 sudo apt-get upgrade
