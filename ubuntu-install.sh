@@ -13,7 +13,7 @@ sudo apt-get install tmux tmate vim vim-gtk git build-essential \
 zsh rcm curl \
 libssl-dev libreadline-dev zlib1g-dev libpq-dev \
 apt-transport-https ca-certificates software-properties-common \
-phantomjs libsodium-dev
+phantomjs libsodium-dev direnv
 
 # Install software
 sudo apt-get install pavucontrol xclip flameshot google-chrome-stable yubioath-desktop tilix krita
