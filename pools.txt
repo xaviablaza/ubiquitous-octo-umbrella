@@ -16,7 +16,7 @@
 
 "pool_list" :
 [
-	{"pool_address" : "monerohash.com:7777", "wallet_address" : "4BKmXgzLJueVgGxBgRjNpzbNUVwyLSQs5EMTy83AT2xHbS9k6zWu2rUJ1yfxbgnorAZFYjsKRfC9WYTBJtqrRSxZPQfmmJ1", "rig_id" : "", "pool_password" : "", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 1 },
+	{"pool_address" : "monerohash.com:5555", "wallet_address" : "4BKmXgzLJueVgGxBgRjNpzbNUVwyLSQs5EMTy83AT2xHbS9k6zWu2rUJ1yfxbgnorAZFYjsKRfC9WYTBJtqrRSxZPQfmmJ1", "rig_id" : "", "pool_password" : "", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 1 },
 ],
 
 /*
