@@ -1,0 +1,11 @@
+--ask-become-pass
+[masters]
+master ansible_host=0.0.0.0 ansible_user=cuadmin
+
+[workers]
+worker1 ansible_host=0.0.0.0 ansible_user=cuadmin
+worker2 ansible_host=0.0.0.0 ansible_user=cuadmin
+worker3 ansible_host=0.0.0.0 ansible_user=cuadmin
+
+[all:vars]
+ansible_python_interpreter=/usr/bin/python3
