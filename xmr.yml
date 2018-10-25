@@ -4,6 +4,9 @@
     - name: pull latest Docker image
       command: docker pull xaviablaza/xmr-stak
 
+    - name: pull latest changes from repo
+      command: cd /home/xavi/ubiquitous-octo-umbrella && git pull origin master
+
     - name: stop current Docker containers
       command: docker stop xmr-stak
 
