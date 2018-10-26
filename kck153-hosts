@@ -1,5 +1,5 @@
 [master]
-master   ansible_host=192.168.157.88  ansible_user=cuadmin
+master01   ansible_host=192.168.157.88  ansible_user=cuadmin
 worker01 ansible_host=192.168.157.69  ansible_user=cuadmin
 worker02 ansible_host=192.168.157.172 ansible_user=cuadmin
 worker03 ansible_host=192.168.157.175 ansible_user=cuadmin
