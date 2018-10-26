@@ -5,10 +5,10 @@
       command: docker pull xaviablaza/xmr-stak
 
     - name: pull latest changes from repo
-      command: chdir=/home/xavi/ubiquitous-octo-umbrella git pull origin master
+      command: chdir=/home/cuadmin/ubiquitous-octo-umbrella git pull origin master
 
     - name: stop current Docker containers
       command: docker stop xmr-stak
 
     - name: start xmr-stak
-      command: nvidia-docker run --rm -d -it -u 0:0 --name xmr-stak -v /home/xavi/ubiquitous-octo-umbrella:/mnt xaviablaza/xmr-stak --config config.txt
+      command: nvidia-docker run --rm -d -it -u 0:0 --name xmr-stak -v /home/cuadmin/ubiquitous-octo-umbrella:/mnt xaviablaza/xmr-stak --config config.txt --noCPU
