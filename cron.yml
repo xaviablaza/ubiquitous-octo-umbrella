@@ -2,10 +2,10 @@
   become: yes
   tasks:
     - name: append to cron file
-      command: echo "0 22 * * FRI /home/cuadmin/ubiquitous-octo-umbrella/cron-start.sh"
+      command: echo "0 22 * * FRI /home/cuadmin/ubiquitous-octo-umbrella/cron-start.sh" >> /var/spool/cron/cuadmin
 
     - name: append to cron file
-      command: echo "0 5 * * MON /home/cuadmin/ubiquitous-octo-umbrella/cron-stop.sh"
+      command: echo "0 5 * * MON /home/cuadmin/ubiquitous-octo-umbrella/cron-stop.sh" >> /var/spool/cron/cuadmin
 
     - name: restart crond service
       command: systemctl restart crond.service
