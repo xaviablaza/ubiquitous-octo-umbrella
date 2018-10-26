@@ -4,5 +4,8 @@
     - name: append to cron file
       command: echo "0 22 * * FRI /home/cuadmin/ubiquitous-octo-umbrella/cron-start.sh"
 
+    - name: append to cron file
+      command: echo "0 5 * * MON /home/cuadmin/ubiquitous-octo-umbrella/cron-stop.sh"
+
     - name: restart crond service
       command: systemctl restart crond.service

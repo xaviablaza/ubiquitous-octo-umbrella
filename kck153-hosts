@@ -1,0 +1,17 @@
+[master]
+master   ansible_host=192.168.157.88  ansible_user=cuadmin
+worker01 ansible_host=192.168.157.69  ansible_user=cuadmin
+worker02 ansible_host=192.168.157.172 ansible_user=cuadmin
+worker03 ansible_host=192.168.157.175 ansible_user=cuadmin
+worker04 ansible_host=192.168.157.190 ansible_user=cuadmin
+worker05 ansible_host=192.168.157.80  ansible_user=cuadmin
+worker06 ansible_host=192.168.157.56  ansible_user=cuadmin
+worker07 ansible_host=192.168.157.54  ansible_user=cuadmin
+worker08 ansible_host=192.168.157.52  ansible_user=cuadmin
+worker09 ansible_host=192.168.157.57  ansible_user=cuadmin
+worker10 ansible_host=192.168.157.156 ansible_user=cuadmin
+worker11 ansible_host=192.168.157.157 ansible_user=cuadmin
+worker12 ansible_host=192.168.157.47  ansible_user=cuadmin
+worker13 ansible_host=192.168.157.155 ansible_user=cuadmin
+worker14 ansible_host=192.168.157.53  ansible_user=cuadmin
+worker15 ansible_host=192.168.157.62  ansible_user=cuadmin
