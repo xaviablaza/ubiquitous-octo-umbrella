@@ -1,0 +1,9 @@
+- hosts: master
+  become: yes
+  tasks:
+    - name: pull latest changes from repo
+      command: chdir=/home/cuadmin/ubiquitous-octo-umbrella git pull origin master
+
+    - name: stop current Docker containers
+      command: docker stop xmr-stak
+      ignore_errors: yes
